@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+
+    background-image: url(sample-image.jpg);
+    height: 95vh;
+    background-size: cover;
+   
+}
+
+section {
+    text-align: center;
+    height: 95vh;
+    margin: 0 auto;
+  
+}
+
+footer {
+    background-color: gray;
+    height: 10vh;
+    text-align: right
+}
