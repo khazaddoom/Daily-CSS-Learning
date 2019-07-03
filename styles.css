@@ -46,7 +46,11 @@ footer {
     padding: 10px
 }
 
-.testimonial > img {
+.testimonial img {
     width: 160px;
     height: 160px;
+}
+
+.testimonial__description {
+    padding: 10px
 }
