@@ -60,10 +60,16 @@ footer {
 .testimonial img {
     width: 160px;
     height: 160px;
+    border: 5px solid white;
+    border-radius: 5rem;
+    margin-bottom: 15px;
 }
 
 .testimonial__title {
+    font-size: 1.5625rem;
+    margin-bottom: 15px;
 }
+
 
 .testimonial__description {
     padding: 1.8125px;
