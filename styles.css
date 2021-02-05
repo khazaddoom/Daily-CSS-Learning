@@ -1,4 +1,4 @@
-*, h3 {
+/* *, h3 {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -77,4 +77,26 @@ footer {
 
 .main {
     background: purple;
+} */
+:root {
+    --clr-primary: #d19018;
+    --clr-secondary: #d19018;
+    --clr-background: #ced6dd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-background);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content {
+    box-shadow: white;
+    padding: 50px;
+    border: 50px solid red;
+    width: 600px;
+    height: 200px;
 }
