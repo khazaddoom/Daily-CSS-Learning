@@ -97,6 +97,6 @@ body {
     box-shadow: white;
     padding: 50px;
     border: 50px solid red;
-    width: 600px;
-    height: 200px;
+    height: auto;
+    width: auto;
 }
