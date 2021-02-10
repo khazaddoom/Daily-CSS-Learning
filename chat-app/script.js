@@ -74,3 +74,27 @@ function formatDate(date) {
 function random(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
+
+let connection = [];
+
+function connect() {
+
+  if(connection.length == 0) {
+
+    connection = new WebSocket('ws://localhost:8080');
+
+    connection.onopen = function (socket) {
+      console.log('Connected!')
+    }
+
+    connection.onmessage = function(e) {
+      console.log(e.data)
+    }
+  } else {
+    console.log(connection)
+  }
+ 
+
+}
+
+connect();
