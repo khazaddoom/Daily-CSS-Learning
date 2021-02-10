@@ -81,7 +81,7 @@ footer {
 :root {
     --clr-primary: #d19018;
     --clr-secondary: #d19018;
-    --clr-background: #ced6dd;
+    --clr-background: #eff2f5;
 }
 
 * {
@@ -97,6 +97,24 @@ body {
     box-shadow: white;
     padding: 50px;
     border: 50px solid red;
-    width: 600px;
-    height: 200px;
+    /* height: auto;
+    width: auto; */
+}
+
+img {
+    margin: 0 auto;
+    width: 80vw;
+    display: block;
+}
+
+@media only screen and (min-width: 768px) {
+    img {
+        width: 40vw
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    img {
+        width: 30vw
+    }
 }
