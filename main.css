@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Baloo 2", sans-serif;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+header,
+footer {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: rebeccapurple;
+  color: #fff;
+}
+
+main {
+  padding: 1rem;
+  max-width: 80ch;
+  margin: 0 auto;
+  outline: 2px dashed grey;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=main.css.map */
