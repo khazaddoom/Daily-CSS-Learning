@@ -1,0 +1,4 @@
+https://testca.tic-tac-shake-up.com/static/media/CloudRight.e37d01be.png
+https://testca.tic-tac-shake-up.com/static/media/CloudLeft.d4973bb3.png
+https://testca.tic-tac-shake-up.com/static/media/BgPlain.9ac648d0.png
+https://testca.tic-tac-shake-up.com/static/media/LogoWithText.2160391e.png
