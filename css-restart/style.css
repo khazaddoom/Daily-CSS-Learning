@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    color: white;
+    background-color: #001488c2;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+@media only screen and (max-width: 523px) {
+    .header_container {
+        flex-direction: column;
+    }
+
+    li {
+        padding: 1rem;
+    }
+}

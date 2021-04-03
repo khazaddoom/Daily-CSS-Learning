@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <ul class="header_container">
+           <li id="welcome_text">Welcome,</li>
+           <li>Dashboard</li>
+           <li>Home</li>
+       </ul>
+    </header>
+    <main>
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="profilename" onchange="changeName(this.value)">
+        </div>
+    </main>
+    <script>
+        const welcomeNode = document.getElementById('welcome_text')
+        welcomeNode.innerText+= ' Anonymous'
+
+        function changeName(text) {
+            const values = welcomeNode.innerText.split(', ')
+            values[1] = text;
+            welcomeNode.innerText = values.join(', ')
+        }
+    </script>
+</body>
+</html>
