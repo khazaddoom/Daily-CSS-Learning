@@ -1,6 +1,6 @@
 .frame {
-    height: 500px;
-    width: 300px;
+    max-height: 500px;
+    max-width: 300px;
     border: 1rem solid #17178b;
 }
 
