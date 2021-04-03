@@ -1,0 +1,32 @@
+.frame {
+    height: 500px;
+    width: 300px;
+    border: 1rem solid #17178b;
+}
+
+img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.frame-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame-controls {
+    /* margin-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.frame-controls div {
+    margin: 0.25rem;
+}
+

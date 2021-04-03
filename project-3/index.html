@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="frame-container">
+        <div class="frame">
+            <img id="frameImage" src="https://source.unsplash.com/user/erondu/1600x900" alt="">
+        </div>
+        <div class="frame-controls">
+            <div>
+                <label for="image">URL:</label>
+                <input type="text" name="image" id="image_url" value="https://source.unsplash.com/user/erondu/1600x900" oninput="changeImage(this.value)">
+            </div>
+            <div>
+                <label for="frame-color">Frame Color:</label>
+                <input type="color" name="frame-color" id="frame-color" oninput="changeFrameColor(this.value)">
+            </div>
+            <div>
+                <label for="frame-width">Frame Width:</label>
+                <input type="number" name="frame-width" id="frame-width" value=1 oninput="changeFrameWidth(this.value)">
+            </div>
+        </div>
+    </div>
+    <script>
+        const frameElement = document.getElementsByClassName('frame')[0]
+        const frameImage = document.getElementById('frameImage')
+        function changeFrameColor(value) {
+            frameElement.style.borderColor = value
+        }
+
+        function changeFrameWidth(value) {
+            if(value>0)
+                frameElement.style.borderWidth= (value *0.25) + 'rem'
+        }
+
+        function changeImage(value) {
+            frameImage.setAttribute('src', value)
+        }
+    </script>
+</body>
+</html>
