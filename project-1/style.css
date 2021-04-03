@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 li {
@@ -18,6 +19,11 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 1rem 0;
+}
+
+#welcome_text {
+    font-weight: bold;
+    font-size: large;
 }
 
 @media only screen and (max-width: 523px) {
