@@ -27,11 +27,12 @@ body {
   margin: 0 auto;
   background: #23424a;
   color: white;
-  padding: 5rem 23rem;
+  padding: 5rem 15rem;
 }
 
 .intro-content {
   width: 50%;
+  max-width: 450px;
 }
 
 /* h2 {
@@ -43,6 +44,6 @@ body > p {
   padding: 0rem 20rem;
 } */
 .content {
-  padding: 0rem 23rem;
-  max-width: 1300px;
+  padding-left: 15rem;
+  max-width: 900px;
 }
