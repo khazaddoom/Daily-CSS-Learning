@@ -25,25 +25,16 @@ body {
 
 .container {
   margin: 0 auto;
-  background: #23424a;
-  color: white;
-  padding: 5rem 15rem;
+  width: 80%;
+  max-width: 750px;
+  padding: 50px;
 }
 
 .intro-content {
   width: 50%;
-  max-width: 450px;
 }
 
-/* h2 {
-  padding: 0rem 20rem;
-
-}
-
-body > p {
-  padding: 0rem 20rem;
-} */
-.content {
-  padding-left: 15rem;
-  max-width: 900px;
+.wrapper {
+  background: #23424a;
+  color: white;
 }
