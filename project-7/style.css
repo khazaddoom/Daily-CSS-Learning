@@ -50,8 +50,17 @@ h1 {
 .col {
     /* these are now flex items */
     width: 100%;
+    text-align: center;
+    margin: 0 .5rem 0 .5rem;
 }
 
+.col h2 {
+    color: #87629A;
+}
+
+.col p {
+    font-size: 1.2rem;
+}
 .hero {
     padding: 100px 0;
     background-color: #23424A;
@@ -80,4 +89,14 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+.summary {
+    background-color: #23424A;
+    color: #FFF;
+    display: flex;
+}
+
+.summary .col h2 {
+    color: #FFF;
 }
