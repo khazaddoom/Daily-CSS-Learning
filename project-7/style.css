@@ -54,10 +54,6 @@ h1 {
     margin: 0 .5rem 0 .5rem;
 }
 
-.col h2 {
-    color: #87629A;
-}
-
 .col p {
     font-size: 1.2rem;
 }
@@ -91,12 +87,14 @@ h1 {
     opacity: .75; 
 }
 
-.summary {
-    background-color: #23424A;
+.container--secondary {
+    width: 100%;
+    background-color: #136C72;
     color: #FFF;
-    display: flex;
+    max-width: 100%;
+    padding: 3rem;
 }
 
-.summary .col h2 {
-    color: #FFF;
+.feature--purple {
+    color: #87629A;
 }
