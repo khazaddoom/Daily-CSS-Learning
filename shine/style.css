@@ -15,7 +15,6 @@ a {
    margin: 0;
    background-color: #27022d;
    color: #fff;
-   transition: 2s;
    overflow: hidden;
 }
 
@@ -31,8 +30,4 @@ a::before {
     transition: 2s;
     height: 100%;
     width: 100%;
-}
-
-a:hover::before {
-    left: 100%;
 }
