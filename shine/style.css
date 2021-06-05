@@ -1,0 +1,33 @@
+* {
+    background-color: bisque;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    position: relative;
+   text-decoration: none;
+   padding: 5rem 10rem;
+   margin: 0;
+   background-color: #27022d;
+   color: #fff;
+   overflow: hidden;
+}
+
+a::before {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    content: '';
+    color: white;
+    /* background: rgb(180,180,180); */
+    /* background: linear-gradient(90deg, transparent, rgba(255,255,255,1) 50%, transparent); */
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,1) 50%, transparent);
+    transition: 2s;
+    height: 100%;
+    width: 100%;
+}
