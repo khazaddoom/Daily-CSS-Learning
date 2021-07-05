@@ -2,10 +2,18 @@
     background-color: bisque;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1 {
+    background-color: lime;
+    aspect-ratio: 1/1;
+    height: 20rem;
+    font-size: 1.5em;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+}
+
+/* body {
+
 }
 
 a {
@@ -30,4 +38,4 @@ a::before {
     transition: 2s;
     height: 100%;
     width: 100%;
-}
+} */
