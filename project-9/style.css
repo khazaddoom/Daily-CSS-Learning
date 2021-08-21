@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    background-color: blanchedalmond;
+    height: 80vh;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+.hero--orange {
+    color: orangered;
+}
