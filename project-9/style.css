@@ -6,9 +6,9 @@
 .hero {
     background-color: blanchedalmond;
     height: 80vh;
-    display: grid;
+    /* display: grid;
     align-content: center;
-    text-align: center;
+    text-align: center; */
 }
 
 .hero--orange {
