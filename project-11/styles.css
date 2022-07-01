@@ -4,17 +4,19 @@
 }
 
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(200px, 25%) 1fr;
 }
 
 .sidenav {
     background-color: bisque;
-    width: min(100% - 1rem, 200px);
+    /* width: min(100% - 1rem, 200px); */
+    height: 100vh;
 }
 
 .contents {
     padding: 0.25rem 1rem;
-    width: min(100% - 1rem, 600px);
+    width: min(100% - 1rem, 75%);
     margin-inline: auto;
     border: 5px solid tomato;
 }
