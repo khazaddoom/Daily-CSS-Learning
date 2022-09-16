@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    border: 2px solid hotpink;
+}
+
+.card img {
+    aspect-ratio: 1/1;
+}
