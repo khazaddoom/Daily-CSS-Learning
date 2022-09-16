@@ -10,15 +10,19 @@ img {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card {
     /* border: 2px solid hotpink; */
     /* width: 10rem; */
     margin: 0 1rem;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .card img {
+    width: 100%;
     aspect-ratio: 1/1;
+    object-fit: cover;
 }
