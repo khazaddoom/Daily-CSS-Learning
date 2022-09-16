@@ -10,11 +10,13 @@ img {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
 .card {
-    border: 2px solid hotpink;
+    /* border: 2px solid hotpink; */
+    /* width: 10rem; */
+    margin: 0 1rem;
 }
 
 .card img {
