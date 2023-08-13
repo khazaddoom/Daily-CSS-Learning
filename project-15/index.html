@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        div.container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 10% 1fr 10%;
+            height: 100vh;
+        }
+
+        .header {
+            grid: 1/1;
+            background-color: slategray;
+        }
+
+        .sidebar {
+            display: none;
+        }
+
+        .content {
+            grid: 1/1;
+            background-color: pink;
+        }
+
+        .footer {
+            grid: 1/1;
+            background-color: slategray;
+        }
+
+        @media only screen and (min-width: 523px) {
+            div.container {
+                display: grid;
+                height: 100vh;
+                grid-template-areas: "header header"
+                "sidebar content"
+                "footer footer";
+                grid-template-columns: 150px 1fr;
+                grid-template-rows: 1rem 1fr 1rem;
+            }
+            .header {
+                grid-area: header;
+            }
+
+            .sidebar {
+                display: block;
+                grid-area: sidebar;
+                background-color: green;
+            }
+
+            .content {
+                grid-area: content;
+            }
+
+            .footer {
+                grid-area: footer;
+            }   
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="header">header</section>
+        <section class="sidebar">Sidebar</section>
+        <main class="content">Content</main>
+        <section class="footer">footer</section>
+    </div>
+</body>
+
+</html>
