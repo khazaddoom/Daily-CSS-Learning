@@ -158,4 +158,9 @@
       padding: .5rem 4rem;
       font-size: 1.25rem;
   }
+
   
+  div {
+    width: min(100% - 2rem, 800px);
+    margin-inline: auto;
+  }
