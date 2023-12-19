@@ -25,7 +25,8 @@ body {
   background: #23424a;
   color: white;
 
-  width: 80%;
+  /* width: 80%; */
+  width: min(80%, 700px);
   margin: 0 auto;
 
   padding: 3em;
