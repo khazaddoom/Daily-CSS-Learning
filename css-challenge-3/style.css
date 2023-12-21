@@ -14,7 +14,7 @@
     --black: #000;
 }
 body {
-    font-size: 21px;
+    /* font-size: 21px; */
 }
 
 .container {
@@ -24,16 +24,17 @@ body {
 }
 
 .intro-content {
-    width: min(80%, 700px);
+    width: min(50%, 700px);
     margin-inline: auto;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3vmax;
 }
 
 p {
-    font-size: .75em;
+    font-weight: 400;
+    font-size: 1.5vmax;
 }
 
 .intro-content a {
