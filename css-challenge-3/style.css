@@ -13,28 +13,26 @@
     --sea-blue: #38CFD9;
     --black: #000;
 }
-body {
-    /* font-size: 21px; */
-}
 
-.container {
+.hero {
     background-color: var(--dark-blue);
     color: white;
     padding: 100px 0;
 }
 
-.intro-content {
-    width: min(50%, 700px);
+.container {
+    /* width: min(50%, 700px); */
+    width: 50%;
+    max-width: 600px;
     margin-inline: auto;
 }
 
-h1 {
-    font-size: 3vmax;
+.intro-content h1 {
+    font-size: 2rem;
 }
 
-p {
+.intro-content p {
     font-weight: 400;
-    font-size: 1.5vmax;
 }
 
 .intro-content a {
