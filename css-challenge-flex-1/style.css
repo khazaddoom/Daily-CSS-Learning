@@ -82,14 +82,19 @@ h1 {
     opacity: .75; 
 }
 
+.three-col {
+    text-align: center;
+    padding: 2em 0;
+}
 
-.offers {
+.three-col h2 {
+    color: #87629A;
+    font-size: 1.7em;
+}
+
+.two-col {
     text-align: center;
     color: white;
     background-color: #136C72;
-}
-
-.large {
-    color: #87629A;
-    font-size: 1.7em;
+    padding: 2em 0;
 }
