@@ -19,7 +19,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
+    font-size: 62.5%;
 }
 
 img {
@@ -49,6 +49,10 @@ h1 {
 .col {
     /* these are now flex items */
     width: 100%;
+}
+
+.col p {
+    font-size: 2em
 }
 
 .col + .col {
@@ -83,6 +87,7 @@ h1 {
     background-color: #38CFD9;
     padding: .75em 2em;
     border-radius: 100px;
+    font-size: 1vmax;
 }
 
 .btn:hover,
