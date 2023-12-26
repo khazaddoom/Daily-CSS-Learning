@@ -73,3 +73,16 @@
     font-weight: 300;
     margin: 1em 0;
 }
+
+@media (min-width: 40rem) {
+    .section-two__contents {
+        display: flex;
+    }
+    .section-three__texts {
+        display: flex;
+        justify-content: space-around;
+    }
+    .section-three__texts div {
+        width: 40%;
+    }
+}
