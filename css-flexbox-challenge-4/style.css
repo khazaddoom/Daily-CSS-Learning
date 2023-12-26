@@ -46,3 +46,30 @@
     font-weight: 300;
     margin: 1em 0;
 }
+
+.section-three {
+    padding: 5rem 0;
+}
+
+.section-three--primary {
+    background-color: #222C2A;
+    color: #fff;
+}
+
+.section-three--secondary {
+    background-color: #824936;
+    color: #fff;
+}
+
+.section-three .title {
+    color: #F3EED9;
+    font-family: 'Playfair Display';
+    font-size: 2em;
+}
+
+.section-three .body {
+    font-family: 'Roboto';
+    font-size: 1.25em;
+    font-weight: 300;
+    margin: 1em 0;
+}
