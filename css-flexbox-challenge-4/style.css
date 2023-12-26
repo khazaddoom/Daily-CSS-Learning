@@ -75,6 +75,9 @@
 }
 
 @media (min-width: 40rem) {
+    .section-two__title {
+        text-align: center;
+    }
     .section-two__contents {
         display: flex;
     }
