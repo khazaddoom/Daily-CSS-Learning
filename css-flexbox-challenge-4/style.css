@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:wght@900&family=Roboto:wght@100;300;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* re-usable classes */
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex--col {
+    flex-direction: column;
+}
+
+.container {
+    width: min(80%, 1128px);
+    margin-inline: auto;
+}
+
+.hero-container {
+    background-color: #F3EED9;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.hero {
+    width: 50%;
+}
+
+.hero__title {
+    font-family: 'Playfair Display';
+    font-size: 3em;
+}
+
+.hero__content {
+    font-family: 'Roboto';
+    font-weight: 100;
+    letter-spacing: .25em;
+}
