@@ -7,3 +7,25 @@
     padding: 0;
 }
 
+.container {
+   max-width: 1128px;
+   width: 80%;
+   margin-inline: auto;
+}
+
+.section-one {
+    padding: 10rem 0;
+    background-color: #F3EED9;
+    text-align: center;
+}
+
+.section-one__title-primary {
+    font-family: 'Playfair Display';
+    font-size: 2em;
+    color: #824936;
+}
+
+.section-one__title-secondary {
+    font-family: 'Roboto';
+    font-weight: 300;
+}
