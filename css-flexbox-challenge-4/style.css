@@ -11,6 +11,9 @@
 
 .d-flex {
     display: flex;
+}
+
+.d-flex--center {
     justify-content: center;
     align-items: center;
 }
@@ -27,7 +30,7 @@
 .hero-container {
     background-color: #F3EED9;
     text-align: center;
-    padding: 5em 0;
+    padding: 10vmin 0;
 }
 
 .hero {
@@ -37,10 +40,32 @@
 .hero__title {
     font-family: 'Playfair Display';
     font-size: 3em;
+    color: #824936;
 }
 
 .hero__content {
     font-family: 'Roboto';
     font-weight: 100;
     letter-spacing: .25em;
+}
+
+.designs {
+    padding: 10vmin 0;
+}
+
+.designs__title {
+    font-size: 2em;
+    color: #824936;
+    margin: 1em 0;
+}
+
+.designs__contents {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.2em;
+    justify-content: space-between;
+}
+
+.designs__contents__item {
+    width: 45%;
 }
