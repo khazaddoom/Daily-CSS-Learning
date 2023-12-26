@@ -12,7 +12,9 @@
 
 */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -31,6 +33,54 @@ h1 {
     margin-top: 0;
 }
 
+header {
+    background: #136c72;
+    padding: 1em 0;
+}
+
+.logo {
+    margin-right: 2em;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    /* flex-shrink: 0; */
+    flex-grow: 1;
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-size: 2em;
+}
+
+.nav__item + .nav__item {
+    margin-left: 1em;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* margin-right: 1em */
+}
+
+.nav__link--button {
+    background: #fff;
+    color: #136c72;
+    padding: 0.25em 1em;
+    border-radius: 10em;
+}
+
+.nav__link:hover {
+    opacity: 0.75;
+}
+
 .container {
     width: 80%;
     max-width: 1100px;
@@ -41,7 +91,7 @@ h1 {
     /* display: flex => flex container */
     display: flex;
     justify-content: space-between;
-    
+
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -50,7 +100,7 @@ h1 {
     font-size: 2em
 }
 
-.col + .col {
+.col+.col {
     margin-left: 100px;
 }
 
@@ -60,7 +110,7 @@ h1 {
     color: #FFF;
 }
 
-.hero__text { 
+.hero__text {
     width: 60%;
 }
 
@@ -76,7 +126,7 @@ h1 {
 .btn {
     display: inline-block;
     text-decoration: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #23424A;
     font-weight: 900;
     background-color: #38CFD9;
@@ -87,7 +137,7 @@ h1 {
 
 .btn:hover,
 .btn:focus {
-    opacity: .75; 
+    opacity: .75;
 }
 
 .content {
