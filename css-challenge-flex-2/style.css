@@ -46,11 +46,6 @@ h1 {
     /* gap: 100px; */
 }
 
-.col {
-    /* these are now flex items */
-    width: 100%;
-}
-
 .col p {
     font-size: 2em
 }
@@ -95,10 +90,6 @@ h1 {
     opacity: .75; 
 }
 
-.two-col {
-    padding: 2em 0;
-}
-
 .content {
     width: 60%;
 }
@@ -113,4 +104,8 @@ h1 {
     text-align: center;
     padding: 1em 1em;
     width: 40%;
+}
+
+.main {
+    margin-top: 3em;
 }
