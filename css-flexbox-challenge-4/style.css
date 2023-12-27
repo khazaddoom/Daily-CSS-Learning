@@ -1,15 +1,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:wght@900&family=Roboto:wght@100;300;400;700;900&display=swap');
 
-* {
+*, *::before, *::after {
     box-sizing: border-box;
+}
+
+* {
     margin: 0;
     padding: 0;
 }
 
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
 img {
     max-width: 100%;
-    display: inline-block;
+    display: block;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
 }
 
 .container {
@@ -88,9 +104,12 @@ img {
     }
     .section-three__texts {
         display: flex;
-        justify-content: space-around;
     }
-    .section-three__texts div {
-        width: 48%;
+    .section-three__col {
+        width: 100%;
+    }
+
+    .section-three__col + .section-three__col {
+        margin-left: 4em;
     }
 }
