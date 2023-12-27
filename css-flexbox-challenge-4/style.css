@@ -101,6 +101,8 @@ p, h1, h2, h3, h4, h5, h6 {
     }
     .section-two__contents {
         display: flex;
+        /* Solution 2 */
+        gap: 4em;
     }
     .section-three__texts {
         display: flex;
@@ -108,8 +110,8 @@ p, h1, h2, h3, h4, h5, h6 {
     .section-three__col {
         width: 100%;
     }
-
-    .section-three__col + .section-three__col {
+    /* Solution 1 */
+    /* .section-three__col + .section-three__col {
         margin-left: 4em;
-    }
+    } */
 }
