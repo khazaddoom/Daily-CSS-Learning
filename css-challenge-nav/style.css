@@ -34,7 +34,6 @@ ul {
 
 .row {
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -136,37 +135,39 @@ header {
 }
 
 .nav__list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 1em
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-
-.nav__item {
-    list-style-type: none;
-    /* margin-left: 1em; */
-}
-
-.nav__link, .nav__link::selection {
-    color: white;
-    text-decoration: none;
-}
-
-.nav__link--button {
-    display: inline-block;
-    color: #072A2D;
-    background-color: white;
-    padding: 0.25em .5em;
-    border-radius: .5em;
-}
-
-
 
 .nav--visible {
     visibility: visible;
     height: auto;
     position: relative;
-} 
+}
+
+.nav__item {
+    margin: .5em 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.nav__link:hover {
+    color: hsl(0, 0%, 70%);
+}
+
+.nav__link--button {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 100px;
+    color: black;
+    padding: .25em .5em;
+}
+.nav__link--button :hover {
+    color: hsl(0, 0%, 70%);
+}
 
 
 .logo {
@@ -209,7 +210,7 @@ header {
     .row {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        align-items: center;
     }
     
     .nav-toggle {
@@ -224,6 +225,7 @@ header {
     }
 
     .nav__list {
+        display:  flex;
         flex-direction: row;
     }
 
