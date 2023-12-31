@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+body, h1, h2, h3 {
     padding: 0;
     margin: 0;
 }
@@ -45,4 +45,9 @@ header {
     background-color: #A59678;
     padding: .25em 1em;
     border-radius: 1.5em;
+}
+
+.intro {
+    background-color: #3B4050;
+    color: #FFFFFF;
 }
