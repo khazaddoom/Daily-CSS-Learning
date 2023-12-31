@@ -8,3 +8,41 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.container {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.btn {
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background-color: #2E323F;
+    color: #fff;
+    font-family: 'Oswald';
+}
+
+.d-flex {
+    display: flex;
+}
+
+.nav__link {
+    margin: 1em;
+}
+
+.nav__link-button {
+    background-color: #A59678;
+    padding: .25em 1em;
+    border-radius: 1.5em;
+}
