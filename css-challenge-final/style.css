@@ -173,8 +173,36 @@ footer {
         display: flex;
         justify-content: space-around;
     }
+
+    .options__brief {
+        display: flex;
+    }
+
+    .options__brief-item {
+        margin: 0 .25em;
+    }
     
 }
 
 @media screen and (min-width: 60rem) {
+    .options {
+        display: flex;
+    }
+
+    .options__detailed  {
+        text-align: left;
+    }
+
+    .options-item + .options-item {
+        margin-left: 2em;
+    }
+
+    .options__brief {
+        display: block;
+    }
+
+    .options__brief-item {
+        text-align: center;
+        margin: 1em 0;
+    }
 }
