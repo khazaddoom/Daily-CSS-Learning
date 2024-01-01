@@ -10,6 +10,7 @@ body, h1, h2, h3, ul {
 }
 
 .container {
+    width: 90%;
     max-width: 1200px;
     margin-inline: auto;
 }
@@ -89,6 +90,45 @@ header {
 .feature__texts {
     font-family: 'Montserrat';
     font-size: .85em;
+}
+
+.section-two {
+    padding: 2em 0;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.options__detailed__title {
+    font-family: 'Oswald';
+    font-size: 2em;
+    color: #A59678;
+}
+
+.options__detailed__texts {
+    font-family: 'Montserrat';
+    font-size: .85em;
+}
+
+.options__brief-item {
+    padding: 1em 0;
+    background-color: #2E323F;
+    color: #fff;
+    margin: 1em 0;
+    font-size: 1.25em;
+}
+
+.options__brief-item .title {
+    font-family: 'Oswald';
+}
+
+.options__brief-item .text {
+    font-family: 'Montserrat';
+    font-size: .75em;
+    padding: 0 2em;
+}
+
+.options__brief-item .title--transparent {
+    opacity: 0;
 }
 
 @media screen and (min-width: 40rem) {
