@@ -185,6 +185,22 @@ footer {
 }
 
 @media screen and (min-width: 60rem) {
+
+    .intro-container {
+        display: flex;
+    }
+
+    .intro__title {
+        flex: 1.5;
+        font-size: 4em;
+        text-align: left;
+    }
+
+    .intro__texts {
+        flex: 1;
+        
+    }
+
     .options {
         display: flex;
     }
