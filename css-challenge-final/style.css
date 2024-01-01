@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@700&family=Playfair+Display:wght@900&family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@300;700&family=Playfair+Display:wght@900&family=Roboto:wght@100;300;400;700;900&display=swap');
 
 *, *::after, *::before {
     box-sizing: border-box;
 }
 
-body, h1, h2, h3 {
+body, h1, h2, h3, ul {
     padding: 0;
     margin: 0;
 }
@@ -15,7 +15,14 @@ body, h1, h2, h3 {
 }
 
 .btn {
+    background-color: #A59678;
+    padding: .25em 1em;
+    border-radius: 1.5em;
+}
 
+img {
+    max-width: 100%;
+    display: block;
 }
 
 ul {
@@ -31,23 +38,33 @@ header {
     background-color: #2E323F;
     color: #fff;
     font-family: 'Oswald';
-}
-
-.d-flex {
-    display: flex;
-}
-
-.nav__link {
-    margin: 1em;
-}
-
-.nav__link-button {
-    background-color: #A59678;
-    padding: .25em 1em;
-    border-radius: 1.5em;
+    padding: 2em 0;
+    text-align: center;
 }
 
 .intro {
+    font-family: 'Oswald';
     background-color: #3B4050;
     color: #FFFFFF;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.intro__title {
+    font-size: 3em;
+}
+
+.intro__title > span {
+    color: #A59678;
+}
+
+@media screen and (min-width: 40rem) {
+    .d-flex {
+        display: flex;
+    }
+
+    .nav__link {
+        margin: 1em;
+    }
+    
 }
