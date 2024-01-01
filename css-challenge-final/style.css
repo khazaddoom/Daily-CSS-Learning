@@ -58,6 +58,30 @@ header {
     color: #A59678;
 }
 
+.section-one {
+    font-size: 1.2em;
+    padding: 2em 0;
+    background-color: #f4f5f8;
+    margin-inline: auto;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+    margin-inline: auto;
+}
+
+.feature__title {
+    font-family: 'Oswald';
+    font-size: 1.5em;
+    color: #A59678;
+}
+
+.feature__texts {
+    font-family: 'Montserrat';
+    font-size: .85em;
+}
+
 @media screen and (min-width: 40rem) {
     .d-flex {
         display: flex;
@@ -66,5 +90,17 @@ header {
     .nav__link {
         margin: 1em;
     }
+
+    .section-one {
+        padding: 4em 0;
+    }
+
+    .features__list {
+        display: flex;
+        justify-content: space-around;
+    }
     
+}
+
+@media screen and (min-width: 60rem) {
 }
