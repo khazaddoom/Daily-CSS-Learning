@@ -40,6 +40,8 @@ a {
     color: #fff;
 }
 
+/* Header Styles */
+
 header {
     background-color: #2E323F;
     color: #fff;
@@ -48,9 +50,19 @@ header {
     text-align: center;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 .nav__link {
     margin: 1em 0;
 }
+
+.nav__link-anchor {
+    font-weight: bold;
+}
+
+/* Intro section styles */
 
 .intro {
     font-family: 'Oswald';
@@ -67,6 +79,8 @@ header {
 .intro__title > span {
     color: #A59678;
 }
+
+/* Section One styles */
 
 .section-one {
     font-size: 1.2em;
@@ -91,6 +105,8 @@ header {
     font-family: 'Montserrat';
     font-size: .85em;
 }
+
+/* Section Two styles */
 
 .section-two {
     padding: 2em 0;
@@ -131,6 +147,8 @@ header {
     opacity: 0;
 }
 
+/* Footer Styles */
+
 footer {
     background-color: #2E323F;
     color: #fff;
@@ -160,9 +178,21 @@ footer {
     font-size: 1em;
 }
 
+/* Styles for Medium Devices */
+
 @media screen and (min-width: 40rem) {
-    .d-flex {
+
+    .header {
         display: flex;
+        justify-content: space-between;
+    }
+
+    .nav__list {
+        display: flex;
+    }
+
+    .nav__link + .nav__link {
+        margin-left: 1em;
     }
 
     .section-one {
@@ -183,6 +213,8 @@ footer {
     }
     
 }
+
+/* Styles for Large Devices */
 
 @media screen and (min-width: 60rem) {
 
