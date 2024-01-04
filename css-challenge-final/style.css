@@ -178,6 +178,14 @@ footer {
     font-size: 1em;
 }
 
+.footer__links-item {
+    margin: .5em 0;
+}
+
+.footer__title {
+    color: #A59678;
+}
+
 /* Styles for Medium Devices */
 
 @media screen and (min-width: 40rem) {
@@ -268,4 +276,20 @@ footer {
         text-align: center;
         margin: 1em 0;
     }
+
+    .footer-contents, .footer__blocks {
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        margin-top: 2em;
+    }
+
+    .about-company {
+        width: 30%;
+    }
+
+    .footer__blocks {
+        width: 50%;
+    }
+    
 }
