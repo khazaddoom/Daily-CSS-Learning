@@ -18,6 +18,10 @@ export default {
         'grullo': {
           700: '#A59678'
         }
+      },
+      fontFamily: {
+        montserrat: ['Montserrat','sans-serif'],
+        oswald: ['Oswald','sans-serif']
       }
     }
   },
