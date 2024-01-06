@@ -7,10 +7,10 @@
     <title>Vite App</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body class="font-oswald">
-    <header class="bg-gunmetal-700 py-5">
-      <nav class="text-center md:flex justify-between">
-        <img src="/logo.svg" alt="brand logo" class="mx-auto md:mx-5">
+  <body>
+    <header class="font-oswald bg-gunmetal-700 py-5">
+      <nav class="mx-10 text-center md:flex justify-between">
+        <img src="/logo.svg" alt="brand logo" class="mx-auto md:mx-0">
         <ul class="block md:flex md:items-center md:mx-5">
           <li class="text-white font-semibold my-2 md:ml-5"><a href="#">HOME</a></li>
           <li class="text-white font-semibold my-2 md:ml-5"><a href="#">ABOUT</a></li>
@@ -20,8 +20,14 @@
         </ul>
       </nav>
     </header>
-    <section class="bg-arsenic-700">
-      <h1 class="p-[1em] text-5xl text-slate-400 text-4xl">Responsive design <span class="text-grullo-700">dont have to be a struggle</span></h1>
+    <section class="bg-arsenic-700 py-5">
+      <div class="mx-10 md:flex">
+        <h1 class="leading-[1.1em] font-oswald text-[5vmax] text-white font-bold md:w-[50%]">Responsive design <span class="text-grullo-700">dont have to be a struggle</span></h1>
+        <div class="md:w-[30%]">
+          <p class="font-montserrat text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="" class="font-oswald inline-block px-5 py-2 rounded-full text-white font-semibold my-2 bg-grullo-700">I WANT TO LEARN</a>
+        </div>
+      </div>
     </section>
   </body>
 </html>
