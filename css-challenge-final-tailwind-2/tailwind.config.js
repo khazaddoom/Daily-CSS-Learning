@@ -17,6 +17,9 @@ export default {
         },
         'grullo': {
           700: '#A59678'
+        },
+        'cultured': {
+          700: '#F8F7F4'
         }
       },
       fontFamily: {
