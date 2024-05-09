@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+        }
+
+        .progress {
+            --size: 150px;
+            --loader-width: 20px;
+            width: var(--size);
+            aspect-ratio: 1 / 1;
+            background-color: blue;
+            border-radius: 50%;
+
+            display: grid;
+            place-items: center;
+
+            &::after {
+                content: '';
+                background-color: white;
+                width: calc(100% - var(--loader-width));
+                border-radius: inherit;
+                aspect-ratio: 1 / 1;
+                display: grid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+</body>
+</html>
