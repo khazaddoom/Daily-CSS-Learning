@@ -3,61 +3,460 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css">
+    <title>Dashboard - Tiger Games</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Contact Us</a></li>
-                <li><a>Privacy</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Welcome to my website</h1>
-        <input type="checkbox" name="agree" id="agree" required>I Agree to Terms of Conditions</input>
-    </main>
-=======
-    <style>
+    <div class="flex">
+        <aside class="w-1/4 h-dvh px-2 bg-[rgb(79,70,229)] text-[rgb(199,210,254)]">
+            <div class="sticky top-0 p-4 w-full">
+                <ul class="flex flex-col overflow-hidden">
+                    <li class="py-2 hover:bg-[rgb(67,56,202)] hover:rounded hover:text-white"><a href="" class="flex items-center">
+                        <svg class="h-[1.5rem] pl-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="bag oc se ur"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path></svg>
+                        <span class="px-2">Home</span>
+                    </a></li>
+                    <li class="py-2 hover:bg-[rgb(67,56,202)] hover:rounded hover:text-white"><a href="" class="flex items-center">
+                        <svg class="h-[1.5rem] pl-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="ayb brv oc se ur"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"></path></svg>
+                        <span class="px-2">User Management</span>
+                    </a>
+                    </li>
+                    <li class="py-2 hover:bg-[rgb(67,56,202)] hover:rounded hover:text-white"><a href="" class="flex items-center">
+                        <svg class="h-[1.5rem] pl-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="ayb brv oc se ur"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z"></path></svg>
+                        <span class="px-2">IP Blocking</span>
+                    </a></li>
+                    <li class="py-2 hover:bg-[rgb(67,56,202)] hover:rounded hover:text-white"><a href="" class="flex items-center">
+                        <svg class="h-[1.5rem] pl-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="ayb brv oc se ur"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"></path></svg>
+                        <span class="px-2">Banner Management</span>
+                    </a></li>
+                    <li class="py-2 hover:bg-[rgb(67,56,202)] hover:rounded hover:text-white"><a href="" class="flex items-center">
+                        <svg class="h-[1.5rem] pl-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="ayb brv oc se ur"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z"></path></svg>
+                        <span class="px-2">Promotion & Bonus</span>
+                    </a></li>
+                </ul>
+            </div>
+        </aside>
+        <main role="main" class="w-3/4 pt-1 px-2 bg-slate-400">
+            <div class="w-full max-w-full">
+                <div class="relative flex flex-col min-w-0 break-words bg-white border-0">
+                  <div class="table-responsive">
+                    <table class="table table-flush text-slate-500" datatable id="datatable-search">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Name</th>
+                          <th>Position</th>
+                          <th>Office</th>
+                          <th>Age</th>
+                          <th>Salary</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Tiger Nixon</td>
+                          <td class="font-normal leading-normal text-sm">System Architect</td>
+                          <td class="font-normal leading-normal text-sm">Edinburgh</td>
+                          <td class="font-normal leading-normal text-sm">61</td>
+                          <td class="font-normal leading-normal text-sm">$320,800</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Garrett Winters</td>
+                          <td class="font-normal leading-normal text-sm">Accountant</td>
+                          <td class="font-normal leading-normal text-sm">Tokyo</td>
+                          <td class="font-normal leading-normal text-sm">63</td>
+                          <td class="font-normal leading-normal text-sm">$170,750</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Ashton Cox</td>
+                          <td class="font-normal leading-normal text-sm">Junior Technical Author</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">66</td>
+                          <td class="font-normal leading-normal text-sm">$86,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Cedric Kelly</td>
+                          <td class="font-normal leading-normal text-sm">Senior Javascript Developer</td>
+                          <td class="font-normal leading-normal text-sm">Edinburgh</td>
+                          <td class="font-normal leading-normal text-sm">22</td>
+                          <td class="font-normal leading-normal text-sm">$433,060</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Airi Satou</td>
+                          <td class="font-normal leading-normal text-sm">Accountant</td>
+                          <td class="font-normal leading-normal text-sm">Tokyo</td>
+                          <td class="font-normal leading-normal text-sm">33</td>
+                          <td class="font-normal leading-normal text-sm">$162,700</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Brielle Williamson</td>
+                          <td class="font-normal leading-normal text-sm">Integration Specialist</td>
+                          <td class="font-normal leading-normal text-sm">New York</td>
+                          <td class="font-normal leading-normal text-sm">61</td>
+                          <td class="font-normal leading-normal text-sm">$372,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Herrod Chandler</td>
+                          <td class="font-normal leading-normal text-sm">Sales Assistant</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">59</td>
+                          <td class="font-normal leading-normal text-sm">$137,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Rhona Davidson</td>
+                          <td class="font-normal leading-normal text-sm">Integration Specialist</td>
+                          <td class="font-normal leading-normal text-sm">Tokyo</td>
+                          <td class="font-normal leading-normal text-sm">55</td>
+                          <td class="font-normal leading-normal text-sm">$327,900</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Colleen Hurst</td>
+                          <td class="font-normal leading-normal text-sm">Javascript Developer</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">39</td>
+                          <td class="font-normal leading-normal text-sm">$205,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Sonya Frost</td>
+                          <td class="font-normal leading-normal text-sm">Software Engineer</td>
+                          <td class="font-normal leading-normal text-sm">Edinburgh</td>
+                          <td class="font-normal leading-normal text-sm">23</td>
+                          <td class="font-normal leading-normal text-sm">$103,600</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Jena Gaines</td>
+                          <td class="font-normal leading-normal text-sm">Office Manager</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">30</td>
+                          <td class="font-normal leading-normal text-sm">$90,560</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Quinn Flynn</td>
+                          <td class="font-normal leading-normal text-sm">Support Lead</td>
+                          <td class="font-normal leading-normal text-sm">Edinburgh</td>
+                          <td class="font-normal leading-normal text-sm">22</td>
+                          <td class="font-normal leading-normal text-sm">$342,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Charde Marshall</td>
+                          <td class="font-normal leading-normal text-sm">Regional Director</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">36</td>
+                          <td class="font-normal leading-normal text-sm">$470,600</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Haley Kennedy</td>
+                          <td class="font-normal leading-normal text-sm">Senior Marketing Designer</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">43</td>
+                          <td class="font-normal leading-normal text-sm">$313,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Tatyana Fitzpatrick</td>
+                          <td class="font-normal leading-normal text-sm">Regional Director</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">19</td>
+                          <td class="font-normal leading-normal text-sm">$385,750</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Michael Silva</td>
+                          <td class="font-normal leading-normal text-sm">Marketing Designer</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">66</td>
+                          <td class="font-normal leading-normal text-sm">$198,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Paul Byrd</td>
+                          <td class="font-normal leading-normal text-sm">Chief Financial Officer (CFO)</td>
+                          <td class="font-normal leading-normal text-sm">New York</td>
+                          <td class="font-normal leading-normal text-sm">64</td>
+                          <td class="font-normal leading-normal text-sm">$725,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Gloria Little</td>
+                          <td class="font-normal leading-normal text-sm">Systems Administrator</td>
+                          <td class="font-normal leading-normal text-sm">New York</td>
+                          <td class="font-normal leading-normal text-sm">59</td>
+                          <td class="font-normal leading-normal text-sm">$237,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Bradley Greer</td>
+                          <td class="font-normal leading-normal text-sm">Software Engineer</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">41</td>
+                          <td class="font-normal leading-normal text-sm">$132,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Dai Rios</td>
+                          <td class="font-normal leading-normal text-sm">Personnel Lead</td>
+                          <td class="font-normal leading-normal text-sm">Edinburgh</td>
+                          <td class="font-normal leading-normal text-sm">35</td>
+                          <td class="font-normal leading-normal text-sm">$217,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Jenette Caldwell</td>
+                          <td class="font-normal leading-normal text-sm">Development Lead</td>
+                          <td class="font-normal leading-normal text-sm">New York</td>
+                          <td class="font-normal leading-normal text-sm">30</td>
+                          <td class="font-normal leading-normal text-sm">$345,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Yuri Berry</td>
+                          <td class="font-normal leading-normal text-sm">Chief Marketing Officer (CMO)</td>
+                          <td class="font-normal leading-normal text-sm">New York</td>
+                          <td class="font-normal leading-normal text-sm">40</td>
+                          <td class="font-normal leading-normal text-sm">$675,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Caesar Vance</td>
+                          <td class="font-normal leading-normal text-sm">Pre-Sales Support</td>
+                          <td class="font-normal leading-normal text-sm">New York</td>
+                          <td class="font-normal leading-normal text-sm">21</td>
+                          <td class="font-normal leading-normal text-sm">$106,450</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Doris Wilder</td>
+                          <td class="font-normal leading-normal text-sm">Sales Assistant</td>
+                          <td class="font-normal leading-normal text-sm">Sidney</td>
+                          <td class="font-normal leading-normal text-sm">23</td>
+                          <td class="font-normal leading-normal text-sm">$85,600</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Angelica Ramos</td>
+                          <td class="font-normal leading-normal text-sm">Chief Executive Officer (CEO)</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">47</td>
+                          <td class="font-normal leading-normal text-sm">$1,200,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Gavin Joyce</td>
+                          <td class="font-normal leading-normal text-sm">Developer</td>
+                          <td class="font-normal leading-normal text-sm">Edinburgh</td>
+                          <td class="font-normal leading-normal text-sm">42</td>
+                          <td class="font-normal leading-normal text-sm">$92,575</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Jennifer Chang</td>
+                          <td class="font-normal leading-normal text-sm">Regional Director</td>
+                          <td class="font-normal leading-normal text-sm">Singapore</td>
+                          <td class="font-normal leading-normal text-sm">28</td>
+                          <td class="font-normal leading-normal text-sm">$357,650</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Brenden Wagner</td>
+                          <td class="font-normal leading-normal text-sm">Software Engineer</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">28</td>
+                          <td class="font-normal leading-normal text-sm">$206,850</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Fiona Green</td>
+                          <td class="font-normal leading-normal text-sm">Chief Operating Officer (COO)</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">48</td>
+                          <td class="font-normal leading-normal text-sm">$850,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Shou Itou</td>
+                          <td class="font-normal leading-normal text-sm">Regional Marketing</td>
+                          <td class="font-normal leading-normal text-sm">Tokyo</td>
+                          <td class="font-normal leading-normal text-sm">20</td>
+                          <td class="font-normal leading-normal text-sm">$163,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Michelle House</td>
+                          <td class="font-normal leading-normal text-sm">Integration Specialist</td>
+                          <td class="font-normal leading-normal text-sm">Sidney</td>
+                          <td class="font-normal leading-normal text-sm">37</td>
+                          <td class="font-normal leading-normal text-sm">$95,400</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Suki Burks</td>
+                          <td class="font-normal leading-normal text-sm">Developer</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">53</td>
+                          <td class="font-normal leading-normal text-sm">$114,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Prescott Bartlett</td>
+                          <td class="font-normal leading-normal text-sm">Technical Author</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">27</td>
+                          <td class="font-normal leading-normal text-sm">$145,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Gavin Cortez</td>
+                          <td class="font-normal leading-normal text-sm">Team Leader</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">22</td>
+                          <td class="font-normal leading-normal text-sm">$235,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Martena Mccray</td>
+                          <td class="font-normal leading-normal text-sm">Post-Sales support</td>
+                          <td class="font-normal leading-normal text-sm">Edinburgh</td>
+                          <td class="font-normal leading-normal text-sm">46</td>
+                          <td class="font-normal leading-normal text-sm">$324,050</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Unity Butler</td>
+                          <td class="font-normal leading-normal text-sm">Marketing Designer</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">47</td>
+                          <td class="font-normal leading-normal text-sm">$85,675</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Howard Hatfield</td>
+                          <td class="font-normal leading-normal text-sm">Office Manager</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">51</td>
+                          <td class="font-normal leading-normal text-sm">$164,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Hope Fuentes</td>
+                          <td class="font-normal leading-normal text-sm">Secretary</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">41</td>
+                          <td class="font-normal leading-normal text-sm">$109,850</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Vivian Harrell</td>
+                          <td class="font-normal leading-normal text-sm">Financial Controller</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">62</td>
+                          <td class="font-normal leading-normal text-sm">$452,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Timothy Mooney</td>
+                          <td class="font-normal leading-normal text-sm">Office Manager</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">37</td>
+                          <td class="font-normal leading-normal text-sm">$136,200</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Jackson Bradshaw</td>
+                          <td class="font-normal leading-normal text-sm">Director</td>
+                          <td class="font-normal leading-normal text-sm">New York</td>
+                          <td class="font-normal leading-normal text-sm">65</td>
+                          <td class="font-normal leading-normal text-sm">$645,750</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Olivia Liang</td>
+                          <td class="font-normal leading-normal text-sm">Support Engineer</td>
+                          <td class="font-normal leading-normal text-sm">Singapore</td>
+                          <td class="font-normal leading-normal text-sm">64</td>
+                          <td class="font-normal leading-normal text-sm">$234,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Bruno Nash</td>
+                          <td class="font-normal leading-normal text-sm">Software Engineer</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">38</td>
+                          <td class="font-normal leading-normal text-sm">$163,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Sakura Yamamoto</td>
+                          <td class="font-normal leading-normal text-sm">Support Engineer</td>
+                          <td class="font-normal leading-normal text-sm">Tokyo</td>
+                          <td class="font-normal leading-normal text-sm">37</td>
+                          <td class="font-normal leading-normal text-sm">$139,575</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Thor Walton</td>
+                          <td class="font-normal leading-normal text-sm">Developer</td>
+                          <td class="font-normal leading-normal text-sm">New York</td>
+                          <td class="font-normal leading-normal text-sm">61</td>
+                          <td class="font-normal leading-normal text-sm">$98,540</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Finn Camacho</td>
+                          <td class="font-normal leading-normal text-sm">Support Engineer</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">47</td>
+                          <td class="font-normal leading-normal text-sm">$87,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Serge Baldwin</td>
+                          <td class="font-normal leading-normal text-sm">Data Coordinator</td>
+                          <td class="font-normal leading-normal text-sm">Singapore</td>
+                          <td class="font-normal leading-normal text-sm">64</td>
+                          <td class="font-normal leading-normal text-sm">$138,575</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Zenaida Frank</td>
+                          <td class="font-normal leading-normal text-sm">Software Engineer</td>
+                          <td class="font-normal leading-normal text-sm">New York</td>
+                          <td class="font-normal leading-normal text-sm">63</td>
+                          <td class="font-normal leading-normal text-sm">$125,250</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Zorita Serrano</td>
+                          <td class="font-normal leading-normal text-sm">Software Engineer</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">56</td>
+                          <td class="font-normal leading-normal text-sm">$115,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Jennifer Acosta</td>
+                          <td class="font-normal leading-normal text-sm">Junior Javascript Developer</td>
+                          <td class="font-normal leading-normal text-sm">Edinburgh</td>
+                          <td class="font-normal leading-normal text-sm">43</td>
+                          <td class="font-normal leading-normal text-sm">$75,650</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Cara Stevens</td>
+                          <td class="font-normal leading-normal text-sm">Sales Assistant</td>
+                          <td class="font-normal leading-normal text-sm">New York</td>
+                          <td class="font-normal leading-normal text-sm">46</td>
+                          <td class="font-normal leading-normal text-sm">$145,600</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Hermione Butler</td>
+                          <td class="font-normal leading-normal text-sm">Regional Director</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">47</td>
+                          <td class="font-normal leading-normal text-sm">$356,250</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Lael Greer</td>
+                          <td class="font-normal leading-normal text-sm">Systems Administrator</td>
+                          <td class="font-normal leading-normal text-sm">London</td>
+                          <td class="font-normal leading-normal text-sm">21</td>
+                          <td class="font-normal leading-normal text-sm">$103,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Jonas Alexander</td>
+                          <td class="font-normal leading-normal text-sm">Developer</td>
+                          <td class="font-normal leading-normal text-sm">San Francisco</td>
+                          <td class="font-normal leading-normal text-sm">30</td>
+                          <td class="font-normal leading-normal text-sm">$86,500</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Shad Decker</td>
+                          <td class="font-normal leading-normal text-sm">Regional Director</td>
+                          <td class="font-normal leading-normal text-sm">Edinburgh</td>
+                          <td class="font-normal leading-normal text-sm">51</td>
+                          <td class="font-normal leading-normal text-sm">$183,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Michael Bruce</td>
+                          <td class="font-normal leading-normal text-sm">Javascript Developer</td>
+                          <td class="font-normal leading-normal text-sm">Singapore</td>
+                          <td class="font-normal leading-normal text-sm">29</td>
+                          <td class="font-normal leading-normal text-sm">$183,000</td>
+                        </tr>
+                        <tr>
+                          <td class="font-normal leading-normal text-sm">Donna Snider</td>
+                          <td class="font-normal leading-normal text-sm">Customer Support</td>
+                          <td class="font-normal leading-normal text-sm">New York</td>
+                          <td class="font-normal leading-normal text-sm">27</td>
+                          <td class="font-normal leading-normal text-sm">$112,000</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+        </main>
+    </div>
+    <script src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
 
-        body {
-            width: 80%;
-            margin: auto;
-        }
-
-        button {
-            background: purple;
-            color: white;
-            outline: none;
-            border: none;
-            padding: 1rem 1.5rem;
-        }
-
-        .controls {
-            margin: 0 auto;
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-            width: 60%;
-        }
-
-        .controls > * {
-            flex: 1;
-            min-width: fit-content;
-        }
-
-    </style>
-</head>
-<body>
-        <div class="controls">
-            <button>Click Here</button>
-            <button>Click here for more</button>
-        </div>
->>>>>>> 4c1bad24cf39276b6f91ac499ba5781cd5ad1c3b
 </body>
 </html>
